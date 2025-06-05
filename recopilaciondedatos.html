@@ -1,0 +1,25 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Display Form (Storage)</title>
+</head>
+<body>
+
+  <h1>Received Form Data (from Storage)</h1>
+  <p>Message: <span id="displayed_message"></span></p>
+
+  <script>
+    const storedMessage = localStorage.getItem('index.html');
+    document.getElementById('index.html').textContent = storedMessage || 'datos obtenidos.';
+    // Optionally clear the storage after retrieval if it's a one-time transfer
+    // localStorage.removeItem('stored_message');
+  </script>
+
+</body>
+</html>
+
+</body>
+</html>
+</body>
+</html>
